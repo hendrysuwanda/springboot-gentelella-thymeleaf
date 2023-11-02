@@ -26,4 +26,9 @@ public class HomeController {
         return "index3";
     }
 
+    @RequestMapping("/layout")
+    public String layout(){
+        return "LayoutDefault";
+    }
+
 }
